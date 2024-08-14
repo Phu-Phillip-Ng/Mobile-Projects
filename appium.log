@@ -1,0 +1,64 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.11.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m60695[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:60695/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:60695/wd/hub (only accessible from the same host)
+	http://10.10.33.51:60695/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@2.10.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@5.0.0 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 8 ms - 111 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 111 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:systemPort":60728,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"15","appium:deviceId":"","appium:noReset":true,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","platformName":"Android","appium:app":"/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk"},"capabilities":{"firstMatch":[{"appium:app":"/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60728,"appium:udid":"emulator-5554","platformName":"android"}]}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver
+[38;5;217m[AppiumDriver@c613][0m Appium v2.11.2 creating new AndroidUiautomator2Driver (v2.10.0) session
+[38;5;217m[AppiumDriver@c613][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;217m[AppiumDriver@c613][0m Appium's BaseDriver version is 9.11.2
+[38;5;217m[AppiumDriver@c613][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.2
+[38;5;-47m[AndroidUiautomator2Driver@e92d][0m The following provided capabilities were not recognized by this driver:
+[38;5;-47m[AndroidUiautomator2Driver@e92d][0m   deviceId
+[38;5;-47m[AndroidUiautomator2Driver@e92d][0m   deviceName
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Session created with session id: eaf27270-f8cd-451a-a249-e5892077d51e
+[38;5;80m[eaf27270][0m[38;5;123m[BaseDriver][0m Using local app '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk'
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/phu.nguyen/.katalon/tools/android_sdk' (newest first):
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m     /Users/phu.nguyen/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/phu.nguyen/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;80m[eaf27270][0m[38;5;183m[AndroidDriver][0m Retrieving device list
+[38;5;80m[eaf27270][0m[38;5;183m[AndroidDriver][0m Using device: emulator-5554
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/phu.nguyen/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Relaxing hidden api policy
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Package name: 'com.jainam.smartdelta'
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Main activity name: 'com.ryanheise.audioservice.AudioServiceActivity'
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from '/Users/phu.nguyen/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.1.apk' is signed with the default certificate
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Server packages are not going to be (re)installed
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk' is signed with a non-default certificate
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m The application at '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m The installation of 'SmartDelta_v_1.0.30.63_LIVE.apk' took 5104ms
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Starting UIAutomator2 server 5.7.1
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Using UIAutomator2 server from '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.1.apk' and test from '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m socket hang up
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Determined the downstream protocol as 'W3C'
+[38;5;80m[eaf27270][0m[38;5;183m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Starting 'com.jainam.smartdelta/com.ryanheise.audioservice.AudioServiceActivity and waiting for 'com.jainam.smartdelta/com.ryanheise.audioservice.AudioServiceActivity'
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Restoring hidden api policy to the device default configuration
+[38;5;80m[eaf27270][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 45185 ms - 1166 
