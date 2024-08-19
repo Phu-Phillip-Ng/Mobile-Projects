@@ -7,7 +7,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
@@ -17,8 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-CustomKeywords.'com.katalon.testcloud.GeolocationExecutor.setMobileGeoLocation'(40.765702, -74.033295, 0)
 
 Mobile.startApplication('D:\\SmartDelta_v_1.0.30.63_LIVE.apk', true)
 
@@ -42,13 +39,12 @@ Mobile.tap(findTestObject('Analytics'), 0)
 
 Mobile.delay(10)
 
-Mobile.scrollToText("IV analysis", FailureHandling.OPTIONAL)
+Mobile.scrollToText('IV analysis', FailureHandling.OPTIONAL)
 
-Mobile.scrollToText("Pivot", FailureHandling.OPTIONAL)
+Mobile.scrollToText('Pivot', FailureHandling.OPTIONAL)
 
 //CustomKeywords.'com.katalon.scrollcustom.KatalonCustomScroll.scroll'()
 //Mobile.swipe(0, 1700, 0, 500, FailureHandling.CONTINUE_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Hints_New/Straddle_VWAP_23/android.view.View (2)'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Hints_New/Straddle_VWAP_23/android.view.View (3)'), 0)
