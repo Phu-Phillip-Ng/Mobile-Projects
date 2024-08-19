@@ -1,6 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -18,6 +17,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
+CustomKeywords.'com.katalon.testcloud.GeolocationExecutor.setMobileGeoLocation'(40.765702, -74.033295, 0)
 
 Mobile.startApplication('D:\\SmartDelta_v_1.0.30.63_LIVE.apk', true)
 

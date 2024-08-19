@@ -46,8 +46,10 @@
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Server packages are not going to be (re)installed
 [38;5;80m[eaf27270][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [38;5;80m[eaf27270][0m[38;5;229m[ADB][0m '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk' is signed with a non-default certificate
-[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m The application at '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0.30.63_LIVE.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m The installation of 'SmartDelta_v_1.0.30.63_LIVE.apk' took 5104ms
+[38;5;80m[eaf27270][0m[38;5;229m[ADB][0m The application at '/Users/phu.nguyen/Downloads/SmartDelta_v_1.0[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 14ms
+tDelta_v_1.0.30.63_LIVE.apk' took 5104ms
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Starting UIAutomator2 server 5.7.1
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Using UIAutomator2 server from '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.1.apk' and test from '/Users/phu.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Waiting up to 30000ms for UiAutomator2 to be online...
@@ -60,5 +62,15 @@
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Determined the downstream protocol as 'W3C'
 [38;5;80m[eaf27270][0m[38;5;183m[AndroidDriver][0m Screen already unlocked, doing nothing
 [38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Starting 'com.jainam.smartdelta/com.ryanheise.audioservice.AudioServiceActivity and waiting for 'com.jainam.smartdelta/com.ryanheise.audioservice.AudioServiceActivity'
-[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Restoring hidden api policy to the device default configuration
-[38;5;80m[eaf27270][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 45185 ms - 1166 
+[38;5;80m[eaf27270][0m[38;5;-47m[AndroidUiautomator2Driver@e92d][0m Restoring hidden api poli[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 18ms
+wn
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 15ms
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 15ms
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             [38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 19ms
